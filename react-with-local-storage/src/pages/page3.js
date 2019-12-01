@@ -10,7 +10,7 @@ const Page3 = () => {
 
   const onAdd = () => {
 
-      let temp_data = JSON.parse(localStorage.getItem('storeObj'));
+      let temp_data = JSON.parse(localStorage.getItem('storeObj')) || [];
       temp_data.push({name: name, age: age});
       localStorage.setItem('storeObj', JSON.stringify(temp_data));
       alert("added user")

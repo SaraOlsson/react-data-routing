@@ -28,7 +28,9 @@ const HomePage = () => {
             For style, the npm package @material-ui/core is used. Each component
             has a style object created with makeStyles to keep the CSS straightforward
 
-          `}</pre>
+          `}  <a href="https://github.com/SaraOlsson/react-with-local-storage/tree/master/react-with-local-storage">Source code on GitHub</a></pre>
+
+
 
     </div>
   );
