@@ -3,7 +3,6 @@
 # dependencies
 react-with-local-storage/node_modules
 react-with-redux-storage/node_modules
-react-with-data-routing/node_modules
 
 /.pnp
 .pnp.js

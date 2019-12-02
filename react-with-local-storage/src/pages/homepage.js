@@ -19,8 +19,9 @@ const HomePage = () => {
             /components folder and are imported where needed.
 
             LocalStorage details:
-            The React Hook function in useLocalStorage.js makes a local state
-            available from anywhere, see example at page 1 and 2.
+            The React Hook function in useLocalStorage.js makes the state respond
+            to changes and re-render like a normal state hook. Saving a value to
+            localStorage, it is available from anywhere, see example at page 1 and 2.
             Objects need to be stored as JSON strings, thus the stringify and
             parse. See example at page 3 and 2.
 
@@ -33,7 +34,7 @@ const HomePage = () => {
               <a href="https://www.robinwieruch.de/local-storage-react">Local Storage in React</a>
               {`\n            `}
               <a href="https://reactploj-redux.netlify.com/">Same project but with React-Redux for data management</a></pre>
-   
+
 
     </div>
   );
